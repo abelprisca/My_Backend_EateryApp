@@ -1,3 +1,4 @@
+// create read and update menu items
 import { z } from 'zod';
 import { MenuItem } from '../models/MenuItem.js';
 import { NotFoundError } from '../utils/errors.js';
