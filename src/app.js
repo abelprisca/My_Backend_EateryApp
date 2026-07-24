@@ -35,6 +35,14 @@ app.use(cookieParser());
 
 app.use('/uploads', express.static('uploads'));
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'Welcome to The Online Eatery API 🚀',
+    version: '1.0.0',
+  });
+});
+
 // Health Check Endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({
