@@ -11,7 +11,7 @@ export const config = {
 
   corsOrigins: (
     process.env.CORS_ORIGIN ||
-    'http://localhost:5173,https://priscaeateryapp.vercel.app'
+    'http://localhost:5173,https://priscamyeateryapp.vercel.app'
   )
     .split(',')
     .map((origin) => origin.trim()),
