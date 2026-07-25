@@ -25,6 +25,7 @@ const allowedOrigins = [
   'https://priscaeateryapp.vercel.app',
 ];
 
+// try 
 app.use(
   cors({
     origin: function (origin, callback) {
