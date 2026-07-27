@@ -22,7 +22,7 @@ app.use(
 // 2) CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://eateryapp.vercel.app/',
+  'https://priscamyeateryapp.vercel.app',
 ];
 
 // try 
